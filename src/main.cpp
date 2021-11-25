@@ -11,7 +11,10 @@ int main(int argc, char* argv[]) {
   	cout << "1 argument provided\n";
   } else if (num == 2) {
   	cout << "2 arguments provided\n";
-  } else {
+  } else if (num ==3 ) {
+      cout << "3 arguments provided\n";
+  }
+  else {
   	cout << num << " arguments provided\n";
   }
   if (argv != 0) {
